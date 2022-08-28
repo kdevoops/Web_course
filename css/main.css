@@ -1,0 +1,19 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+#logo {
+  vertical-align: -4px;
+}
+
+.mymarket {
+  color:#f52;
+}
+
+.reviews {
+  display: inline-block;
+}
+
+.count {
+  color: #aaaaaa;
+}
