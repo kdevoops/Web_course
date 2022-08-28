@@ -29,15 +29,6 @@ ul {
   padding-left: 20px;
 }
 
-.reviews {
-  display: inline-block;
-}
-
-.count {
-  color: #aaaaaa;
-
-}
-
 a:link {
   color: #018ad2;
   text-decoration: none;
@@ -49,4 +40,33 @@ a:hover {
 
 button {
   padding: 8px 12px 8px 12px;
+}
+
+.reviews-head {
+  display: inline-block;
+}
+
+.count {
+  color: #aaaaaa;
+}
+
+.reviews {
+  text-align: left;
+}
+
+.reviews h4 {
+  padding-left: 216px;
+}
+
+.reviews p {
+  padding-left: 216px;
+}
+
+.reviews #rating {
+  padding-left: 16px;
+}
+
+.reviews #reviewer {
+  float: left;
+  height: 200px;
 }
