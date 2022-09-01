@@ -9,8 +9,7 @@
 body {
   font-size: 18px;
   max-width: 1500px;
-  margin: auto;
-  width: 50%;
+  margin: 0 auto;
 }
 
 table, th, td {
