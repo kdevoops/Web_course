@@ -1,0 +1,71 @@
+#logo {
+  vertical-align: -4px;
+}
+
+.mymarket {
+  color:#f52;
+}
+
+body {
+  font-size: 18px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+iframe {
+  border: 1px dashed #ccc;
+}
+
+p {
+  padding-top: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a:link {
+  color: #018ad2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c00;
+}
+
+button {
+  padding: 8px 12px 8px 12px;
+}
+
+.reviews-head {
+  display: inline-block;
+}
+
+.count {
+  color: #aaaaaa;
+}
+
+.reviews {
+  text-align: left;
+}
+
+.reviews h4 {
+  padding-left: 216px;
+}
+
+.reviews p {
+  padding-left: 216px;
+}
+
+.reviews #rating {
+  padding-left: 16px;
+}
+
+.reviews #reviewer {
+  float: left;
+  height: 200px;
+}
