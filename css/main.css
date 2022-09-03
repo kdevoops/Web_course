@@ -49,9 +49,11 @@ button {
   color: #aaaaaa;
 }
 
-
-.reviews {
+.container_reviews {
   display: flex;
   flex-direction: column;
+}
+.container_reviews_review {
+  display: flex;
   gap: 16px;
 }
