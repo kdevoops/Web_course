@@ -6,22 +6,89 @@
   color:#f52;
 }
 
+.pageContainer{
+  margin: 50px auto;
+  width: 1440px;
+  max-width: 1500px;
+}
+
 body {
   font-size: 18px;
-  max-width: 1500px;
-  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: #F8FAFE;
+}
+
+.about {
+  display: flex;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.phoneviews {
+  display: flex;
+  gap: 10px;
+  height: 387px;
+}
+
+.colors{
+  display: flex;
+  flex-direction: column;
+}
+
+.colors__header{
+  margin-top: 0px;
+}
+
+.colors__list{
+  display: flex;
+  gap: 10px;
+}
+
+.colorsImg {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorsImg__img {
+  height: 60px;
+}
+
+.configs {
+  display: flex;
+  gap: 10px;
+}
+
+.configs__buttons {
+  height: 39px;
+  width: 92px;
+  background-color: #F8FAFE;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.configs__buttons:active {
+  background-color: #f36223;
 }
 
 table, th, td {
   border: 1px solid black;
 }
 
-iframe {
-  border: 1px dashed #ccc;
-}
-
-p {
-  padding-top: 16px;
+.paragraph {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 ul {
@@ -35,37 +102,4 @@ a:link {
 
 a:hover {
   color: #c00;
-}
-
-button {
-  padding: 8px 12px 8px 12px;
-}
-
-.reviews-head {
-  display: inline-block;
-}
-
-.count {
-  color: #aaaaaa;
-}
-
-.reviews {
-  text-align: left;
-}
-
-.reviews h4 {
-  padding-left: 216px;
-}
-
-.reviews p {
-  padding-left: 216px;
-}
-
-.reviews #rating {
-  padding-left: 16px;
-}
-
-.reviews #reviewer {
-  float: left;
-  height: 200px;
 }

@@ -1,0 +1,22 @@
+.addReview {
+    padding: 8px 12px 8px 12px;
+  }
+  
+  .reviews-head {
+    display: inline-block;
+  }
+  
+  .count {
+    color: #aaaaaa;
+  }
+  
+  .container_reviews {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container_reviews_review {
+    display: flex;
+    gap: 16px;
+  }
+ 
