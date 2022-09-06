@@ -1,0 +1,70 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: 100px;
+  width: 420px;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #EEEEEE;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.basket_price {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.basket_price s {
+  color: darkgray;
+}
+
+.basket_price_def {
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+#discount {
+  width: 47px;
+  height: 24px;
+  background-color: #f36223;
+  color: #EEEEEE;
+  padding: 4px 8px;
+  border-radius: 500px;
+  margin-left: 10px;
+}
+
+#actualprice {
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+
+.basket button {
+  background-color: #f36223;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 20px 49px;
+  height: 64px;
+  margin-top: 15px;
+}
+
+.basket_delivery {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  gap: 10px;
+}

@@ -4,8 +4,12 @@ body {
   }
   div {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #eee;
+    background-color: #F0F0F0;
+    color: #888888;
     height: 100%;
+    font-size: 14px;
+    font-weight: 400;
   }
