@@ -12,8 +12,11 @@
 }
 
 .pageContainer{
-  margin: 10px 50px;
-  width: 1440px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  width: 1400px;
   max-width: 1500px;
 }
 
@@ -36,6 +39,7 @@ h3 {
 
 .phoneviews {
   display: flex;
+  flex-grow: 1;
   gap: 10px;
   height: 387px;
 }
