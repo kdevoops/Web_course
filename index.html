@@ -18,7 +18,12 @@
   <div class="pageContainer"> <!--Whole page container-->
   <body>
     <header>
-      <h1><img src="resources/favicon.ico" id="logo" alt="Icon"><span class="mymarket">Мой</span>Маркет</h1>
+      <div class="mainlogo">
+        <div>
+          <img class="mainlogo__img" src="resources/favicon.ico" alt="Icon">
+        </div>
+          <h1><span class="mainlogo__red">Мой</span>Маркет</h1>
+      </div>
     </header>
     <nav>
       <a href="electronics.html">Электроника</a>
@@ -37,32 +42,33 @@
         <img src="resources/image-2.webp" alt=" Back">
         <img src="resources/image-3.webp" alt=" Back & front">
         <img src="resources/image-4.webp" alt=" Camera">
-        <img src="resources/image-5.webp" alt=" Front и back\\">
+        <img src="resources/image-5.webp" alt=" Front и back">
       </div>
-    <div class="about"> <!-- main flex container-->
-      <div> <!-- 1'st main flex block -->
+
+    <div class="about"> <!--general flex container-->
+      <div> <!--1'st main flex block -->
 
         <section><!--Colors-->
         <div class="colors"> <!--Container-->
           <h3 class="colors__header">Цвет товара: Синий</h3> <!--Container's block-->
           <div class="colors__list"> <!--2'nd container's block-->
             <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-1.webp" alt="Phone">
+              <img class="colorsImg__img" src="resources/color-1.webp" alt="Red">
             </div>
             <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-2.webp" alt="Phone">
+              <img class="colorsImg__img" src="resources/color-2.webp" alt="Green">
             </div>
             <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-3.webp" alt="Phone">
+              <img class="colorsImg__img" src="resources/color-3.webp" alt="Pink">
+            </div>
+            <div class="colorsImg colorsImg_slct">
+              <img class="colorsImg__img" src="resources/color-4.webp" alt="Blue">
             </div>
             <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-4.webp" alt="Phone">
+              <img class="colorsImg__img" src="resources/color-5.webp" alt="White">
             </div>
             <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-5.webp" alt="Phone">
-            </div>
-            <div class="colorsImg">
-              <img class="colorsImg__img" src="resources/color-6.webp" alt="Phone">
+              <img class="colorsImg__img" src="resources/color-6.webp" alt="Black">
             </div>
           </div>
         </div>
@@ -71,9 +77,9 @@
         <section><!--Configuration-->
           <h3>Конфигурация памяти: 128 ГБ</h3>
           <div class="configs">
-              <button class="configs__buttons">128 ГБ</button>
-              <button class="configs__buttons"> 256 ГБ</button>
-              <button class="configs__buttons">512 ГБ</button>
+              <button class="btn btn_selected">128 ГБ</button>
+              <button class="btn">256 ГБ</button>
+              <button class="btn">512 ГБ</button>
           </div>
         </section>
 
@@ -196,7 +202,7 @@
                   <div>Самовывоз в четверг, 1 сентября - <b>бесплатно</b></div>
                   <div>Курьером в четверг, 1 сентября - <b>бесплатно</b></div>
                 </div>
-                <button>Добавить в корзину</button>
+                <button class="btn">Добавить в корзину</button>
               </div>
               <div class="adv">
                 <p>Реклама</p>

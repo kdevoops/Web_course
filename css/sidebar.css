@@ -61,6 +61,9 @@
   height: 64px;
   margin-top: 15px;
 }
+.basket button:hover {
+  background-color: #DA4A0C;
+}
 
 .basket_delivery {
   display: flex;

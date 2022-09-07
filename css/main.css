@@ -1,13 +1,18 @@
-#logo {
-  vertical-align: -4px;
+.mainlogo {
+  display: flex;
+  align-items: center;
 }
 
-.mymarket {
+.mainlogo__img {
+  margin-bottom: 11px;
+}
+
+.mainlogo__red {
   color:#f52;
 }
 
 .pageContainer{
-  margin: 50px auto;
+  margin: 10px 50px;
   width: 1440px;
   max-width: 1500px;
 }
@@ -60,6 +65,13 @@ h3 {
   align-items: center;
 }
 
+.colorsImg_slct {
+  border: 2px solid #F36223;
+}
+.colorsImg:hover {
+  background-color: lightgray;
+}
+
 .colorsImg__img {
   height: 60px;
 }
@@ -69,17 +81,26 @@ h3 {
   gap: 10px;
 }
 
-.configs__buttons {
+.btn {
+  border-radius: 4px;
+}
+
+.configs button {
   height: 39px;
   width: 92px;
   background-color: #F8FAFE;
-  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
+  border: 1px solid darkgray;
 }
-
-.configs__buttons:active {
+.configs button:hover {
+  background-color: darkgray;
+}
+.configs button:active {
   background-color: #f36223;
+}
+.configs button.btn_selected {
+  border: 2px solid #F36223;
 }
 
 table, th, td {
@@ -101,5 +122,5 @@ a:link {
 }
 
 a:hover {
-  color: #c00;
+  color: #F36223;
 }
