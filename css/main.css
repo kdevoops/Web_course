@@ -13,11 +13,10 @@
 
 .pageContainer{
   margin-top: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
   box-sizing: border-box;
-  width: 1400px;
-  max-width: 1500px;
+  max-width: 1440px;
 }
 
 body {
