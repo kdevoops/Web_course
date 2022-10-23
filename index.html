@@ -23,7 +23,7 @@
         <div>
           <img class="mainlogo__img" src="resources/favicon.ico" alt="Icon">
         </div>
-          <h1><span class="mainlogo__red">Мой</span>Маркет</h1>
+          <h1><span class="mainlogo_red">Мой</span>Маркет</h1>
       </div>
     </header>
     <nav>
@@ -78,28 +78,28 @@
           <section>
             <h3>Конфигурация памяти: 128 ГБ</h3>
             <div class="configs">
-                <button class="btn btn_selected">128 ГБ</button>
-                <button class="btn">256 ГБ</button>
-                <button class="btn">512 ГБ</button>
+                <button class="btn configs__btn configs__btn_selected">128 ГБ</button>
+                <button class="btn configs__btn">256 ГБ</button>
+                <button class="btn configs__btn">512 ГБ</button>
             </div>
           </section>
           <!--Characteristics-->
-          <section>
+          <section class="charact">
             <h3>Характеристики товара</h3>
-            <ul>
+            <ul class="charact__list">
               <li>Экран: <b>6.1</b></li>
               <li>Встроенная память: <b>128 ГБ</b></li>
               <li>Операционная система: <b>iOS 15</b></li>
               <li>Беспроводные интерфейсы: <b>NFC, Bluetooth, Wi-Fi</b></li>
-              <li>Процессор: <a href="https://ru.wikipedia.org/wiki/Apple_A15" target="_blank"><b>Apple 15 Bionic</b></a></li>
+              <li>Процессор: <a class="hlink" href="https://ru.wikipedia.org/wiki/Apple_A15" target="_blank"><b>Apple 15 Bionic</b></a></li>
               <li>Вес: <b>173 г</b></li>
             </ul>
           </section>
           <!--Description-->
-          <section>
+          <section class="descript">
             <h3>Описание</h3>
             <p>Наша самая совершенная система двух камер.<br>Особый взгляд на прочность дисплея.<br>Чип, с которым всё супербыстро.<br>Аккумулятор держится заметно дольше.<br><i>iPhone 13 - сильный мира всего.</i></p>
-            <div class="paragraph">
+            <div class="descript__paragraph">
               <p>Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двухкамер с увеличенной матрицей широкоугольной камеры. Кроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере.</p>
               <p>Новая сверхширокоугольная камера видит больше деталей в тёмных областяхснимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении.</p>
               <p>Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещенияфокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект»будет удерживать фокус на объекте съёмки, создавая красивый эффект размытиявокруг него. Режим «Киноэффект» распознаёт, когда нужно перевести фокус на другогочеловека или объект, который появился в кадре. Теперь ваши видео будут смотреться как настоящее кино.</p>
@@ -109,22 +109,20 @@
         <aside> <!-- Sidebar's container-->
           <div class="sidebar">
             <div class="basket">
-              <div class="basket_price">
-                <p class="basket_price_def"><s>75 990₽</s><span id="discount">-8%</span></p>
-                <p id="actualprice">67 990₽</p>
+              <div class="basket__price">
+                <p class="basket__price-def"><s>75 990₽</s><span class="basket__discount">-8%</span></p>
+                <p class="basket__actualprice">67 990₽</p>
               </div>
-              <div class="basket_delivery">
+              <div class="basket__delivery">
                 <div>Самовывоз в четверг, 1 сентября - <b>бесплатно</b></div>
                 <div>Курьером в четверг, 1 сентября - <b>бесплатно</b></div>
               </div>
-              <button class="btn">Добавить в корзину</button>
+              <button class="btn basket__btn">Добавить в корзину</button>
             </div>
             <div class="adv">
-              <p>Реклама</p>
-              <div class="advframes">
-                <iframe src="ads.html" height="300"></iframe>
-                <iframe src="ads.html" height="300"></iframe>
-              </div>
+              <p class="adv__header">Реклама</p>
+              <iframe class="adv__frame" src="ads.html" height="300"></iframe>
+              <iframe class="adv__frame" src="ads.html" height="300"></iframe>
             </div>
           </div>
         </aside>
@@ -132,16 +130,17 @@
 
 
       <!--Reviews-->
-      <section class="reviews">
-        <div class="reviews_headline">
-          <h3 class="reviews-head">Отзывы</h3>
-          <span class="count"> 425 </span>
-          <button class="addReviewBtn">Добавить отзыв</button>
+      <section class="reviews"> <!--Start of Reviews-->
+
+        <div class="rv-header">
+          <h3 class="rv-header__head">Отзывы</h3>
+          <span class="rv-header__count"> 425 </span>
+          <button class="rv-header__addReviewBtn">Добавить отзыв</button>
         </div>
 
         <!-- Container w/ column & block w/ flex rows inside-->
-        <div class="container_reviews">
-          <div class="container_reviews_review"> <!-- Reviews container with 2 blocks inside -->
+        <div class="container-reviews">
+          <div class="container-reviews__review"> <!-- Reviews container with 2 blocks inside -->
               <img src="resources/review-1.jpeg" height="140px" alt="Reviewer">
               <div>
                 <h4>Марк Г.</h4>
@@ -152,9 +151,9 @@
               </div>
           </div> <!-- End of reviews container -->
 
-          <div class="divider"><hr></div> <!-- divider block-->
+          <div class="container-reviews__divider"><hr></div> <!-- divider block-->
 
-          <div class="container_reviews_review"> <!-- Block of 2'nd review -->
+          <div class="container-reviews__review"> <!-- Block of 2'nd review -->
           <div>
             <img src="resources/review-2.jpeg" height="140px" alt="Reviewer">
           </div>
@@ -167,7 +166,7 @@
             </div>
         </div>
       </div>
-      </section>
+      </section><!--End of reviews-->
 
 
     </div><!--End of product container-->
@@ -175,7 +174,7 @@
     </main>
 
     <footer>
-      © ООО "<span class="mymarket">Мой</span>Маркет", 218-2022. Для уточнения информации звоните по номеру <a href="tel:7900000000">7 900 000 0000</a>, а предложения по сотрудничеству отправляйте на почту <a href="mailto:hrefpartner@mymarket.ru">hrefpartner@mymarket.ru</a>
+      © ООО "<span class="mymarket">Мой</span>Маркет", 218-2022. Для уточнения информации звоните по номеру <a class="hlink" href="tel:7900000000">7 900 000 0000</a>, а предложения по сотрудничеству отправляйте на почту <a href="mailto:hrefpartner@mymarket.ru">hrefpartner@mymarket.ru</a>
     <br><a href="#">Наверх</a>
     </footer>
 

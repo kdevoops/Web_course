@@ -18,22 +18,22 @@
   padding: 20px;
 }
 
-.basket_price {
+.basket__price {
   display: flex;
   flex-direction: column;
   margin: 0px;
 }
 
-.basket_price s {
+.basket__price s {
   color: darkgray;
 }
 
-.basket_price_def {
+.basket__price-def {
   margin-top: 20px;
   margin-bottom: 14px;
 }
 
-#discount {
+.basket__discount {
   width: 47px;
   height: 24px;
   background-color: #f36223;
@@ -43,7 +43,7 @@
   margin-left: 10px;
 }
 
-#actualprice {
+.basket__actualprice {
   font-size: 32px;
   font-weight: 500;
   margin-top: 0px;
@@ -51,7 +51,7 @@
 }
 
 
-.basket button {
+.basket__btn {
   background-color: #f36223;
   border: none;
   font-size: 20px;
@@ -61,11 +61,11 @@
   height: 64px;
   margin-top: 15px;
 }
-.basket button:hover {
+.basket__btn:hover {
   background-color: #DA4A0C;
 }
 
-.basket_delivery {
+.basket__delivery {
   display: flex;
   flex-direction: column;
   margin: 0px;

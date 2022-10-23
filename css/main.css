@@ -7,7 +7,7 @@
   margin-bottom: 11px;
 }
 
-.mainlogo__red {
+.mainlogo_red {
   color:#f52;
 }
 
@@ -30,11 +30,6 @@ body {
   margin-top: 40px;
 }
 
-h3 {
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 40px;
-}
 
 .phoneviews {
   display: flex;
@@ -88,7 +83,7 @@ h3 {
   border-radius: 4px;
 }
 
-.configs button {
+.configs__btn {
   height: 39px;
   width: 92px;
   background-color: #F8FAFE;
@@ -96,34 +91,30 @@ h3 {
   font-weight: 500;
   border: 1px solid darkgray;
 }
-.configs button:hover {
+.configs__btn:hover {
   background-color: darkgray;
 }
-.configs button:active {
+.configs__btn:active {
   background-color: #f36223;
 }
-.configs button.btn_selected {
+.configs__btn_selected {
   border: 2px solid #F36223;
 }
 
-table, th, td {
-  border: 1px solid black;
-}
-
-.paragraph {
+.descript__paragraph {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-ul {
+.charact__list {
   padding-left: 20px;
 }
 
-a:link {
+.hlink:link {
   color: #018ad2;
   text-decoration: none;
 }
 
-a:hover {
+.hlink:hover {
   color: #F36223;
 }
