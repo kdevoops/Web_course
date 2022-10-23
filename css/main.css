@@ -110,6 +110,34 @@ body {
   padding-left: 20px;
 }
 
+.compare {
+  margin-top: 30px;
+}
+
+.table-compare{
+  border: 1px solid darkgray;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-compare__head-cell {
+  border-right: 1px solid darkgray;
+}
+
+.table-compare__row {
+  text-align: left;
+  height: 39px;
+}
+
+.table-compare__cell {
+  border-right: 1px solid darkgray;
+  padding-left: 5px;
+}
+
+.table-compare__row:hover {
+  background-color: lightgray;
+}
+
 .hlink:link {
   color: #018ad2;
   text-decoration: none;

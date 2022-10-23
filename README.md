@@ -8,3 +8,5 @@ Started my first project in GitLab.
 10 - CCC-flexbox: table removed
 
 11 - CSS-bem: BEM changes
+
+12 - CCS+bem: footer modern; table + CSS
